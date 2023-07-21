@@ -333,9 +333,6 @@ footer p:nth-child(2){
 		background-position: center;
 		
 	}
-	.contacts_btn{
-		margin-left: 50px;
-	}
 	.options{
 		padding-top: 10px;
 		padding-bottom: 10px;
@@ -355,40 +352,72 @@ footer p:nth-child(2){
 	}
 	
 	.main{
+		display:grid;
 		width: 400px;
 		max-width: 95%;
-		margin: 0 auto;
-		display: flex;
 		align-items: center;
 		justify-content: space-around;
 	}
-	.about-text h2{
+	.about-text{
+		display: block;
+		justify-content: center;
+	}
+	.documentation{
+		display: block;
+		justify-content: center;
+	}
+	.documentation > h2{
 		color: white;
-		font-size: 35px;
+		font-size: 25px;
 		text-transform: capitalize;
 		margin-bottom: 20px;
+		justify-content: center;
+		padding-left: 200px;
 	}
+	.about .main .about-text .documentation > h5{
+		justify-content: center;
+		padding-left: 80px;
+		font-size: 18px;
+		
+	}
+	
+	.about .main .about-text .documentation p{
+		justify-content: space-between;
+		letter-spacing: 0.5px;
+		font-size: 15px;
+		padding: 20px 70px 20px 70px;
+	}
+	.about .main .about-text .documentation .contacts_btn{
+		margin-left: 200px;
+	}
+	
 	.picture{
     display:block;
-    max-width: 50%;
-	max-height: 40%;
+    max-width: 80%;
+	max-height: 50%;
 	width: 20px;
 	height: 15px;
 	padding-right: 15px;
-	padding-left: 3px;
-	padding-bottom: 250px;
+	padding-left: 130px;
+	padding-bottom: 25px;
 		
+	}
+	.logo_deg{
+		justify-content: center;
+
 	}
 	.cylogo{
 		position:relative;
-		display: inline-block;
-		max-width: 38%;
-		max-height: 38%;
-		margin-left: -15px;
+		justify-content: center;
+		max-width: 15%;
+		max-height: 15%;
+		left: 18%;
+		
 		
 	}
 	.contacts_btn{
-		padding-left: 20px;
+		justify-content: center;
+		left: 25%;
 		
 	}
 	.about-text h5{
